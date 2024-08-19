@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1023245376203",
+    "project_id": "newstartz-eda6f",
+    "storage_bucket": "newstartz-eda6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023245376203:android:41c66d21188eebb79a594e",
+        "android_client_info": {
+          "package_name": "com.example.drivermovisa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfd6JENyHQ4-W9B7QDWBN4DhZFsAvUDqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023245376203:android:e9d98631393fc0399a594e",
+        "android_client_info": {
+          "package_name": "com.example.ordermovisa2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfd6JENyHQ4-W9B7QDWBN4DhZFsAvUDqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
