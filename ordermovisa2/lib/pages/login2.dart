@@ -21,7 +21,7 @@ class _loginstate2 extends State<login2> {
       setState(() {
 
       });
-      var url = "https://movingone.herokuapp.com/login";
+      var url = "https://www.site.com/login";
       final response = await http.post(
         // Uri.parse('https://jsonplaceholder.typicode.com/albums'),
         Uri.parse(url),
