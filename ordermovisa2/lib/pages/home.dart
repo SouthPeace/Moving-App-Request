@@ -57,7 +57,7 @@ class _HomeState extends State<Home> {
   );
 
   Future<String> createAlbum3(String username, String email, String password) async {
-    var url = "https://movingone.herokuapp.com/reg";
+    var url = "https://www.site.com/reg";
     final response = await http.post(
       // Uri.parse('https://jsonplaceholder.typicode.com/albums'),
       Uri.parse(url),
