@@ -26,5 +26,6 @@ Note: This version of the app is specifically designed for users (requesters) lo
 
 Please also have a look in the 'media' folder for some screenshots of the app.
 
+Note: in the video the app on the left is the driver facing and the one on the right is user facing. this is a early prototype version of the app.
 [![Demo app showcase](https://github.com/SouthPeace/Moving-App-Request/tree/main/media/location details.png)](https://youtu.be/c-SMFXBvXJQ)
 
