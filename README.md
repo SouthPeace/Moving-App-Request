@@ -24,4 +24,4 @@ Backend Connectivity: Utilized http for REST API calls and rxdart for reactive p
 Cross-Platform Development: Built using Flutter and Dart, ensuring a consistent and performant experience across both Android and iOS devices.
 Note: This version of the app is specifically designed for users (requesters) looking to book moving services. A separate version of the app exists for drivers to manage and fulfill these requests.
 
-[![Watch the video] 
+[![Watch the video](https://github.com/SouthPeace/Moving-App-Request/tree/main/media/location details.png)]([https://github.com/SouthPeace/Moving-App-Request/tree/main/media/Movisa-app-showcase.mp4]) 
