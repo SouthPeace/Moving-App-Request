@@ -903,7 +903,7 @@ var distance_counter = 0;
   void make_order(String userid) async {
     print("inside make order function");
     try{
-      var url = "https://movingone.herokuapp.com/flutter_make_order";
+      var url = "https://www.site.com/flutter_make_order";
       final response = await http.post(
         Uri.parse(url),
         headers: <String, String>{
@@ -940,7 +940,7 @@ var distance_counter = 0;
   void set_socketio_token(String userid,socket_token) async{
     try{
       print("socket io id : "+socket_token);
-      var url = "https://movingone.herokuapp.com/user_socketio_set";
+      var url = "https://www.site.com/user_socketio_set";
       final response = await http.post(
         Uri.parse(url),
         headers: <String, String>{
@@ -966,7 +966,7 @@ var distance_counter = 0;
   void get_driver(String driverid) async{
     try{
 
-      var url = "https://movingone.herokuapp.com/get_driver_info";
+      var url = "https://www.site.com/get_driver_info";
       final response = await http.post(
         Uri.parse(url),
         headers: <String, String>{
@@ -1006,7 +1006,7 @@ var distance_counter = 0;
   // socket io stuff
   Future<void> initSocket() async {
     try{
-      socket = IO.io('https://socketza.herokuapp.com/',<String, dynamic>{
+      socket = IO.io('https://www.site.com/',<String, dynamic>{
         'transports': ['websocket'],
         'autoConnect': true,
       },
