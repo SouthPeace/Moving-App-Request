@@ -63,7 +63,7 @@ String user_id1 = '';
       final fcmToken = await FirebaseMessaging.instance.getToken();
       print("token : "+fcmToken.toString());
       print("driverid : "+userid);
-      var url = "https://movingone.herokuapp.com/user_firebase_set";
+      var url = "https://www.site.com/user_firebase_set";
       final response = await http.post(
         Uri.parse(url),
         headers: <String, String>{
@@ -89,7 +89,7 @@ String user_id1 = '';
   void set_socketio_token(String userid,socket_token) async{
     try{
       print("socket io id : "+socket_token);
-      var url = "https://movingone.herokuapp.com/user_socketio_set";
+      var url = "https://www.site.com/user_socketio_set";
       final response = await http.post(
         Uri.parse(url),
         headers: <String, String>{
@@ -119,7 +119,7 @@ String user_id1 = '';
   // socket io stuff
   Future<void> initSocket() async {
     try{
-      socket = IO.io('https://socketza.herokuapp.com/',<String, dynamic>{
+      socket = IO.io('https://www.site.com/',<String, dynamic>{
         'transports': ['websocket'],
         'autoConnect': true,
       },
